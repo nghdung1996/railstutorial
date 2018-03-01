@@ -1,5 +1,9 @@
 {
-  "name": "railstutorial",
+  "name": "rails_tutorial",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "eslint": "^4.18.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
 }
