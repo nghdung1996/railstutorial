@@ -93,7 +93,6 @@ GEM
     deep_merge (1.2.1)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    docile (1.1.5)
     dotenv (1.0.0)
     dotenv-rails (1.0.0)
       dotenv (= 1.0.0)
@@ -237,18 +236,6 @@ GEM
       sass (~> 3.4.20)
     scss_lint_reporter_checkstyle (0.2.0)
     sexp_processor (4.10.1)
-    shoulda-matchers (3.1.2)
-      activesupport (>= 4.0.0)
-    simplecov (0.15.1)
-      docile (~> 1.1.0)
-      json (>= 1.8, < 3)
-      simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.2)
-    simplecov-json (0.2)
-      json
-      simplecov
-    simplecov-rcov (0.2.3)
-      simplecov (>= 0.4.1)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -320,10 +307,6 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   scss_lint (~> 0.54.0)
   scss_lint_reporter_checkstyle
-  shoulda-matchers
-  simplecov
-  simplecov-json
-  simplecov-rcov
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
