@@ -1,7 +1,14 @@
 <% provide :title, t(".title") %>
-<h1><%= t".t1" %></h1>
-<p>
-  <%= t".s1" %>
-  <a href="http://www.railstutorial.org/"><%= t".link" %></a>
-  <%= t".s2"%>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".t1" %></h1>
+
+  <h2>
+    <%= t ".s1" %>
+    <a href="http://www.railstutorial.org/"><%= t ".link" %></a>
+    <%= t ".s2" %>
+  </h2>
+
+  <%= link_to t(".link2"), "#", class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: t(".s3")), "http://rubyonrails.org/" %>
