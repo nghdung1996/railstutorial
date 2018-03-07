@@ -10,3 +10,5 @@ FeatureEnvy:
 
 UtilityFunction:
   enabled: false
+DuplicateMethodCall:
+  max_calls: 2

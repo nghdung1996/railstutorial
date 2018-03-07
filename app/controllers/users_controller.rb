@@ -19,10 +19,9 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
 
-    unless user
-      flash[:success] = t "error_user"
-      redirect_to root_path
-    end
+    return if user
+    flash[:success] = t "error_user"
+    redirect_to root_path
   end
 
   private

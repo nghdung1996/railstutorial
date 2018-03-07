@@ -2,6 +2,7 @@ en:
   hello: "Hello world"
   error_user: "User not found"
   content: "Welcome to the Sample App!"
+  danger: "Invalid email/password combination"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
@@ -57,7 +58,18 @@ en:
       t1: "Sign up"
       s1: "Create my account"
       s2: "Confirmation"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
   shared:
     error_messages:
       s1: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      signup: "Sign up now"
+      newuser: "New user?"
