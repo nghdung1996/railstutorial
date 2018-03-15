@@ -19,6 +19,7 @@ en:
       l1: "Home"
       l2: "Help"
       l3: "Log in"
+      account: "Account"
   static_pages:
     home:
       title: "Home"
@@ -73,3 +74,4 @@ en:
       login: "Log in"
       signup: "Sign up now"
       newuser: "New user?"
+      rememberme: "Remember me on this computer"
