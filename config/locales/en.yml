@@ -3,6 +3,8 @@ en:
   error_user: "User not found"
   content: "Welcome to the Sample App!"
   danger: "Invalid email/password combination"
+  updated: "Profile updated"
+  deleted: "User deleted"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
@@ -65,6 +67,18 @@ en:
       settings: "Settings"
       logout: "Log out"
       login: "Log in"
+    user:
+      delete: "delete"
+      confirm: "You sure?"
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      confirm: "Confirmation"
+      save: "Save changes"
+      change: "change"
+      login_warning: "Please log in."
+    index:
+      users: "All users"
   shared:
     error_messages:
       s1: "The form contains"
