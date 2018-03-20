@@ -33,6 +33,7 @@ RemoveUnusedMethodsInControllersCheck: {
     UsersController#create,
     SessionsController#create,
     SessionsController#destroy
+    SessionsController#login_success
   ]
 }
 RemoveUnusedMethodsInHelpersCheck: { except_methods: [] }

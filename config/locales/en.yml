@@ -5,6 +5,16 @@ en:
   danger: "Invalid email/password combination"
   updated: "Profile updated"
   deleted: "User deleted"
+  message: "Account not activated. Check your email for the activation link."
+  actived: "Account activated!"
+  error_activate: "Invalid activation link"
+  info: "Please check your email to activate your account."
+  activation: "Account activation"
+  sample: "Sample App"
+  welcome: "Welcome to the Sample App! 
+    Click on the link below to activate your account:"
+  activate: "Activate"
+  hi: "Hi"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
