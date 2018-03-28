@@ -13,7 +13,7 @@ class PasswordResetsController < ApplicationController
 
   def update
     return empty_password if params[:user][:password].empty?
-    return update_success if user.update_attributes(user_params)
+    return update_success if user.update_attributes user_params
     render :edit
   end
 
@@ -40,7 +40,7 @@ class PasswordResetsController < ApplicationController
   def get_user
     @user = User.find_by email: params[:email]
     return if user
-    flash.now[:danger] = t "danger_email"
+    flash[:danger] = t "danger_email"
     redirect_to root_path
   end
 

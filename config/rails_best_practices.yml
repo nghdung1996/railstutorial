@@ -32,7 +32,7 @@ RemoveUnusedMethodsInControllersCheck: {
     UsersController#show,
     UsersController#create,
     SessionsController#create,
-    SessionsController#destroy
+    SessionsController#destroy,
     SessionsController#login_success,
     PasswordResetsController#create
   ]

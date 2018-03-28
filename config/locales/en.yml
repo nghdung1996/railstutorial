@@ -21,6 +21,9 @@ en:
   empty: "can't be empty"
   reseted: "Password has been reset."
   expired: "Password reset has expired."
+  posts_created: "Micropost created!"
+  posts_deleted: "Micropost deleted"
+  limit_img: "should be less than 5MB"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
@@ -47,6 +50,7 @@ en:
       s2: "sample application."
       link2: "Sign up now!"
       s3: "Rails logo"
+      feed: "Micropost Feed"
     help:
       title: "Help"
       t1: "Help"
@@ -95,10 +99,18 @@ en:
       login_warning: "Please log in."
     index:
       users: "All users"
+    show:
+      microposts: "Microposts"
   shared:
     error_messages:
       s1: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       login: "Log in"
@@ -122,3 +134,9 @@ en:
       content1: "This link will expire in two hours."
       content2: "If you did not request your password to be reset, 
         please ignore this email and your password will stay as it is."
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "delete"
+      sure?: "You sure?"
