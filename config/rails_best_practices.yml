@@ -40,7 +40,8 @@ RemoveUnusedMethodsInControllersCheck: {
 RemoveUnusedMethodsInHelpersCheck: { except_methods: [] }
 RemoveUnusedMethodsInModelsCheck: {
   except_methods: [
-    User#digest
+    User#digest,
+    Micropost#current_user
   ]
 }
 ReplaceComplexCreationWithFactoryMethodCheck: { attribute_assignment_count: 2 }

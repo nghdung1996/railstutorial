@@ -8,6 +8,8 @@ $violet: #777;
 $white: #fff;
 $red: #f00;
 $color-a: #e8e8e8;
+$gray-c: #808080;
+$blue: #00f;
 
 @mixin box-sizing {
   box-sizing: border-box;
@@ -165,6 +167,47 @@ aside {
   margin-top: 15px;
 }
 
+.stats {
+  margin-top: 0;
+  overflow: auto;
+  padding: 0;
+
+  a {
+    border-left: 1px solid $gray-lighter;
+    color: $gray-a;
+    float: left;
+    padding: 0 10px;
+
+    &:first-child {
+      border: 0;
+      padding-left: 0;
+    }
+
+    &:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+
+  strong {
+    display: block;
+  }
+}
+
+.user-avatars {
+  margin-top: 10px;
+  overflow: auto;
+
+  .gravatar {
+    margin: 1px;
+  }
+
+  a {
+    padding: 0;
+  }
+}
+
+
 // form
 
 input,
@@ -172,7 +215,7 @@ select,
 textarea,
 .uneditable-input {
   @include box-sizing;
-  border: 1px solid $gray-a;
+  border: 1px solid $gray-c;
   margin-bottom: 15px;
   width: 100%;
 }

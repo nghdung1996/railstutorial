@@ -24,6 +24,9 @@ en:
   posts_created: "Micropost created!"
   posts_deleted: "Micropost deleted"
   limit_img: "should be less than 5MB"
+  following: "Following"
+  followers: "Followers"
+  not_found: "User not found"
   layouts:
     application:
       basetitle: "Ruby on Rails Tutorial Sample App"
@@ -100,6 +103,13 @@ en:
     index:
       users: "All users"
     show:
+      microposts: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      profile: "view my profile"
       microposts: "Microposts"
   shared:
     error_messages:
